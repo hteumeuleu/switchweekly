@@ -12,6 +12,17 @@
 			color:#d20014;
 			text-decoration-thickness:2px;
 		}
+
+		.sw-btn a:hover {
+			color: #d40915 !important;
+			background-color: #fff;
+		}
+
+		.sw-polka-bg {
+			background-image: radial-gradient(#f8f8f8 33.33%, transparent 33.33%), radial-gradient(#f8f8f8 33.33%, transparent 33.33%) !important;
+			background-position: 6px 6px, 18px 18px !important;
+			background-size: 24px 24px !important;
+		}
 	</style>
 	<style id="css-responsive" data-embed>
 		@media only screen and (min-width:632px) {
@@ -25,9 +36,17 @@
 		}
 	</style>
 	<style id="css-dark" data-embed>
-		@media (x-prefers-color-scheme:dark) {
-			.sw-email {
+		@media (prefers-color-scheme:dark) {
+			.sw-dark-background-color {
+				background-color:#3d3d3d !important;
+			}
+
+			.sw-dark-background-color-darker {
 				background-color:#2d2d2d !important;
+			}
+
+			.sw-polka-bg {
+				background-image: radial-gradient(#272727 33.33%, transparent 33.33%), radial-gradient(#272727 33.33%, transparent 33.33%) !important;
 			}
 
 			.sw-text {
@@ -47,9 +66,12 @@
 	</xml>
 	<![endif]-->
 </head>
-<body style="padding:0; margin:0; -webkit-text-size-adjust:none; text-size-adjust:none; background:#fff;">
-	<div lang="en" style="background:#fff;" class="sw-email">
-		<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; background:#fff;">
+<body style="padding:0; margin:0; -webkit-text-size-adjust:none; text-size-adjust:none; background:#fff;" class="sw-dark-background-color">
+	<!--[if mso]>
+	<table border="0" cellpadding="0" cellspacing="0" align="center" role="presentation" style="width:632px;"><tr><td>
+	<![endif]-->
+	<div lang="en" style="background:#fff;" class="sw-dark-background-color">
+		<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
 			<tr>
 				<td style="padding:0 16px;">
 					<p style="margin:0; padding:0; color:#767676; font:16px/32px 'Helvetica Neue', sans-serif; text-align:right;">
@@ -61,82 +83,50 @@
 		<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; background:#d40915;">
 			<tr>
 				<td style="padding:8px 16px;">
-					<!--[if mso]>
-					<table border="0" cellpadding="0" cellspacing="0" align="center" role="presentation" style="width:600px;"><tr><td>
-					<![endif]-->
 					<div style="max-width:600px; margin:0 auto;">
 						<p style="margin:0 0 4px;">
-							<a href="https://switchweekly.com/" target="_blank"><img src="https://i.imgur.com/acydX2D.png" alt="Switch Weekly" width="200" border="0" style="vertical-align:middle; color:#fff; font:16px/1.5 'Helvetica Neue', sans-serif;" /></a>
+							<a href="https://switchweekly.com/" target="_blank"><img src="https://i.imgur.com/acydX2D.png" alt="Switch Weekly" width="200" border="0" style="vertical-align:middle; color:#fff; font:16px/24px 'Helvetica Neue', sans-serif;" /></a>
 						</p>
 						<p style="margin:0; padding:0; color:#fff; font:16px/16px 'Helvetica Neue', sans-serif;">
-							<span style="font-weight:bold; font-size:14px; text-transform:uppercase; letter-spacing:0.04em;">Issue #263</span>
-							&middot; January 2, 2022 &middot; Hello again.
+							<span style="font-weight:bold; font-size:14px; text-transform:uppercase; letter-spacing:0.04em;">Issue #270</span>
+							&middot; February 20, 2022 &middot; Hello Sports fans.
 						</p>
 					</div>
-					<!--[if mso]>
-					</td></tr></table>
-					<![endif]-->
 				</td>
 			</tr>
 		</table>
-		<div style="background:url(https://cdn.my.nintendo.com/static/dist/images/common/bg-dots.a6016f3d7813525f.svg) center bottom;">
-			<!--[if mso]>
-			<table border="0" cellpadding="0" cellspacing="0" align="center" role="presentation" style="width:600px;"><tr><td>
-			<![endif]-->
-			<div style="max-width:600px; margin:0 auto;">
-				<div class="sw-hero">
-					<img src="https://switchweekly.com/sendy/uploads/1643571400.jpg" alt="" width="600" style="vertical-align:middle; max-width:100%;" class="sw-hero-img" />
+		<div class="sw-polka-bg" style="background:url(https://i.imgur.com/hhtbc2C.png) center bottom;">
+			<div style="max-width:632px; margin:0 auto;">
+				<div class="sw-hero" style="padding:16px;">
+					<img src="https://switchweekly.com/sendy/uploads/1645397030.jpg" alt="" width="600" style="vertical-align:middle; max-width:100%; border-radius:8px; background:#fff;" class="sw-hero-img" />
 				</div>
 			</div>
-			<!--[if mso]>
-			</td></tr></table>
-			<![endif]-->
 		</div>
-		<div style="background:#f8f8f8;">
+		<div style="background:#f8f8f8;" class="sw-dark-background-color-darker">
 			<div style="max-width:632px; margin:0 auto;">
-				<!--[if mso]>
-				<table border="0" cellpadding="0" cellspacing="0" align="center" role="presentation" style="width:632px;"><tr><td>
-				<![endif]-->
 				<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
 					<tr>
 						<td style="padding:32px 16px;">
-							<p style="margin:0 0 16px; color:#2d2d2d; font:16px/1.5 'Helvetica Neue', sans-serif;" class="sw-text">
-								<b>Yo, here&#39;s issue #<em>263</em> of&nbsp;Switch Weekly.</b>
+							<p style="margin:0 0 16px; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
+								<b>Hi, here's issue #270 of Switch Weekly — your weekly Nintendo update.</b>
 							</p>
-							<p style="margin:0 0 16px; color:#2d2d2d; font:16px/1.5 'Helvetica Neue', sans-serif;" class="sw-text">
-								Hope you had a nice time over the holidays and managed to squeeze in some gaming. I&#39;ve been busy during the break putting together not only 
-								<a href="https://switchweekly.com/puzzles/5">a new crossword for you all</a>
-								, but also 
-								<a href="https://www.youtube.com/watch?v=CccdFNrQp2s">a video looking back</a>
-								 over all the links shared in Switch Weekly throughout 2021.&nbsp;
+							<p style="margin:0 0 16px; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
+								So, did any of you manage to try <strong>Nintendo&nbsp;Switch Sports</strong> this weekend? There was an online play test&nbsp;for Switch Online members over the last few days. I didn't get chance to try it as it was all appointment-based — meaning you had to play during certain hours. But maybe it's a good thing I didn't get to play,&nbsp;as <a href="https://www.videogameschronicle.com/news/nintendo-is-forbidding-switch-sports-play-testers-from-sharing-info-on-social-media/">I couldn't have told you about it</a> anyway. 😆 You can totally hit reply and email me your thoughts in confidence. 😅
 							</p>
-							<p style="margin:0 0 16px; color:#2d2d2d; font:16px/1.5 'Helvetica Neue', sans-serif;" class="sw-text">
-								In the last issue&nbsp;I asked about your 
-								<strong>Switch highlights for the past year</strong>
-								. Without&nbsp;doubt Metroid Dread came out on top as Switch Weekly readers Game of the Year. As for most played, Monster Hunter Rise saw the most responses. I also asked which game you thought went under the radar, and a couple of folks mentioned 
-								<a href="https://www.nintendo.com/games/detail/tux-and-fanny-switch/">Tux and Fanny</a>
-								 - so that&#39;s one you may want to check out (
-								<em><a href="https://www.nintendolife.com/features/the-best-hidden-gems-and-underrated-switch-games-of-2021">Nintendo Life put together a list of other games from 2021 you may have missed here</a></em>
-								). Thanks to all those who filled out the form and shared their thoughts!
+							<p style="margin:0 0 16px; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
+								The big story this week wasn't a good one for Nintendo — they announced plans to <strong>shutter the 3DS/Wii U stores</strong>, closing off access to hundreds of games that will no longer&nbsp;be available to buy elsewhere. Never a good move from a preservation point of view. I've shared more on this&nbsp;below. Now,&nbsp;the company gave us something of a 'shit sandwich' with this news too: Yes,&nbsp;I'm being a touch cynical here of course, but Nintendo <a href="https://www.gamesradar.com/uk/revisit-your-3ds-and-wii-u-highlights-with-the-my-nintendo-memories-website/">offered&nbsp;a way to share&nbsp;pretty Wii U/3DS related&nbsp;stats</a> on social — sure was a nice&nbsp;attempt at&nbsp;distracting attention away from the whole 'shutting up shop' thing. Cynicism aside, the tool is kinda neat to look back on, even if half of everyone's stats is <a href="https://twitter.com/chrisbrandrick/status/1493914156944265221">just them watching Netflix on Wii U</a>. 😬&nbsp;
 							</p>
-							<p style="margin:0 0 16px; color:#2d2d2d; font:16px/1.5 'Helvetica Neue', sans-serif;" class="sw-text">
-								Next week there&#39;s 
-								<strong>around a dozen games</strong>
-								 coming to the Switch. Not much in terms of noteworthy releases, but that&#39;s normal for early in the year. Full list is below, with more details.
+							<p style="margin:0 0 16px; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
+								Anyway, we've got just under&nbsp;<strong>30 games</strong>&nbsp;coming to the Switch next week. The full list of games, along with my description of each is below as ever.&nbsp;
 							</p>
-							<p style="margin:0 0 16px; color:#2d2d2d; font:16px/1.5 'Helvetica Neue', sans-serif;" class="sw-text">
-								I can&#39;t wait to see what Nintendo&#39;s 2022 has in store for us, and to share&nbsp;it all&nbsp;with you here &mdash; and we&#39;ve already got plenty to look forward to, with the likes of Pokemon, Advance Wars, Splatoon 3, a new Kirby, and the sequel to my favourite Switch game: Breath of the Wild. 😃 Beyond Nintendo I&#39;m liking the look of Bomb Rush Cyberfunk, Metal Slug Tactics, &nbsp;Olli Olli World, and Tunic 
-								<em>(that last one is on Xbox)</em>
-								. What&#39;s on your watch list? Hit reply and lemme know.&nbsp;
-							</p>
-							<p style="margin:0 0 16px; color:#2d2d2d; font:16px/1.5 'Helvetica Neue', sans-serif;" class="sw-text">
-								Whether a long time sub or new to the newsletter, thank you for reading&nbsp;- it means a lot to have a space in your inbox to share my thoughts and findings.&nbsp;
+							<p style="margin:0 0 16px; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
+								Thanks for reading, and I'll catch you next week.
 							</p>
 							<div style="display:flex;">
-								<p style="margin:0; color:#2d2d2d; font:16px/1.5 'Helvetica Neue', sans-serif;" class="sw-text">
+								<p style="margin:0; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
 									<img src="https://switchweekly.com/sendy/uploads/1552836696.gif" width="64" height="64" align="left" alt="" style="vertical-align:middle; float:none; margin-right:16px; color:#d20014; border:4px solid; border-radius:50%;" />
 								</p>
-								<p style="margin:auto 0; color:#2d2d2d; font:16px/1.5 'Helvetica Neue', sans-serif;" class="sw-text">
+								<p style="margin:auto 0; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
 									<strong>Cheers</strong>,<br />
 									<em><a href="https://twitter.com/chrisbrandrick" rel="noopener" target="_blank" style="color:#2d2d2d;">Chris</a></em>
 									&nbsp;✌️
@@ -148,75 +138,26 @@
 				<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
 					<tr>
 						<td style="padding:16px;">
-							<div style="max-height:15px;">
-								<div style="margin-left:16px; display:inline-block; padding:4px 16px; background:#888; border-radius:16px;">
-									<p style="margin:0; color:#eee; font:16px/1.5 'Helvetica Neue', sans-serif;">
-										🎮 <b>Currently Playing</b>
-									</p>
-								</div>
+							<div style="display:inline-block; padding:4px 16px; background:#888; border-radius:8px;">
+								<p style="margin:0; color:#eee; font:16px/24px 'Helvetica Neue', sans-serif;">
+									🎮 <b>Currently Playing</b>
+								</p>
 							</div>
-							<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; background-color:#646464; border:4px solid #888; border-radius:8px;">
-								<tr>
-									<td style="padding:16px;">
-										<p style="margin:0; color:#eee; font:16px/1.5 'Helvetica Neue', sans-serif;" class="sw-text">
-											Pokemon Legends: Arceus, Paper Mario, Sable (Xbox), Grindstone (iOS)
-										</p>
-									</td>
-								</tr>
-							</table>
-						</td>
-					</tr>
-				</table>
-				<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
-					<tr>
-						<td style="padding:16px;">
-							<div style="max-height:15px;">
-								<div style="margin-left:16px; display:inline-block; padding:4px 16px; background:#3a4595; border-radius:16px;">
-									<p style="margin:0; color:#eee; font:16px/1.5 'Helvetica Neue', sans-serif;">
-										🎮 <b>Currently Playing</b>
-									</p>
-								</div>
-							</div>
-							<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; background-color:#929de6; border:4px solid #3a4595; border-radius:8px;">
-								<tr>
-									<td style="padding:16px;">
-										<p style="margin:0; color:#2d2d2d; font:16px/1.5 'Helvetica Neue', sans-serif;" class="sw-text">
-											Pokemon Legends: Arceus, Paper Mario, Sable (Xbox), Grindstone (iOS)
-										</p>
-									</td>
-								</tr>
-							</table>
-						</td>
-					</tr>
-				</table>
-				<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
-					<tr>
-						<td style="padding:16px;">
-							<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; background-color:#00b2b3; border:4px solid #00d5d5; border-radius:8px;">
-								<tr>
-									<td style="padding:16px;">
-										<p style="margin:0; color:#2d2d2d; font:16px/1.5 'Helvetica Neue', sans-serif;" class="sw-text">
-											<strong>Switch Weekly remains both accessible <em>and</em> sustainable</strong> thanks to the ongoing support of my&nbsp;amazing patrons, including:<br>
-											<em>PC,&nbsp;CapnGoat, SB,&nbsp;FrozenTrout, JR,&nbsp;MindFad, Greg, Michael Fairley, Chris D, Andrew E, and others</em>&nbsp;—&nbsp;<strong><a href="https://www.patreon.com/switchweekly" style="color:inherit;">why not join them</a>?</strong>
-										</p>
-									</td>
-								</tr>
-							</table>
+							<p style="margin:4px 0 0 16px; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
+								LOVE 3, Pokemon Legends: Arceus, Grindstone (iOS)
+							</p>
 						</td>
 					</tr>
 				</table>
 			</div>
 		</div>
-		<div style="background:#fff;">
+		<div>
 			<div style="max-width:632px; margin:0 auto;">
-				<!--[if mso]>
-				<table border="0" cellpadding="0" cellspacing="0" align="center" role="presentation" style="width:632px;"><tr><td>
-				<![endif]-->
 				<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
 					<tr>
 						<td style="padding:16px;">
 							<div style="padding:16px 0;">
-								<p style="margin:0 0 4px; color:#2d2d2d; font:16px/1.5 'Helvetica Neue', sans-serif;" class="sw-text">
+								<p style="margin:0 0 4px; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
 									<strong>
 										<span style="font-size:10px">REVIEW</span>
 										<a href="###" style="text-decoration:underline;color:#d20014" target="_blank">Pokémon Legends: Arceus - More than a trainer journey</a>
@@ -224,25 +165,34 @@
 									<span style="font-size:14px;">&nbsp;—&nbsp;</span>
 									"<em>does an excellent job of pushing boundaries while staying true to what has kept&nbsp;Pokémon&nbsp;popular for over two decades and is an eye-opening glimpse at what Game Freak could do in future games of the series</em>".
 								</p>
-								<p style="margin:0; color:#767676; font:16px/1.5 'Helvetica Neue', sans-serif;" class="sw-text">
+								<p style="margin:0; color:#767676; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
 									Laura Gray // Screen Rant
 								</p>
 							</div>
-							<hr style="border-width:0; background:#d40915; color:#d40915; height:4px; border-radius:2px;" />
+							<div style="padding:16px 0;">
+								<p style="margin:0 0 4px; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
+									<strong><a href="https://www.example.com" style="text-decoration:underline;color:#d20014" target="_blank">Nintendo receives backlash from fans over ending eShop purchases</a></strong>
+									<span style="font-size:14px;">&nbsp;—&nbsp;</span>
+									Earlier this week Nintendo announced plans to shutter the ability to purchase games via the eShop on both the Wii U and 3DS. It did not go down well, with many citing preservation concerns. The Video Game History Foundation called the decision "<a href="https://www.example.com" target="_blank">actively destructive to video game history</a>". If you're wanting some sort of rationale for the decision then <a href="https://www.example.com" target="_blank">here's a good Twitter thread</a> that dives into what may be behind it. The change is expected to take place in March of 2023.
+								</p>
+								<p style="margin:0; color:#767676; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
+									BBC
+								</p>
+							</div>
 							<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; background-color:#d40915; border:4px solid #d40915; border-radius:8px;">
 								<tr>
 									<td style="padding:8px 16px;">
-										<h2 style="margin:0; color:#fff; font:bold 20px/1.5 'Helvetica Neue', sans-serif;">
+										<h2 style="margin:0; color:#fff; font:bold 20px/30px 'Helvetica Neue', sans-serif;">
 											🎮 Upcoming Releases
 										</h2>
 									</td>
 								</tr>
 							</table>
-							<p style="margin:16px 0; color:#2d2d2d; font:16px/1.5 'Helvetica Neue', sans-serif;" class="sw-text">
+							<p style="margin:16px 0; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
 								All releases are digital, Europe & U.S. unless otherwise stated.<br />
 								Release data sourced in collaboration with <a href="https://www.switchscores.com/" target="_blank" style="color:#2d2d2d;">Switch Scores</a>.
 							</p>
-							<p style="margin:16px 0; color:#2d2d2d; font:16px/1.5 'Helvetica Neue', sans-serif;" class="sw-text">
+							<p style="margin:16px 0; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
 								⭐️ = Ones to Watch &middot; 📦 = Physical release &middot; 🎮 = Demo available
 							</p>
 							<div style="padding:16px 0;">
@@ -263,7 +213,7 @@
 											</table>
 										</td>
 										<td style="padding-left:16px; padding-bottom:16px; vertical-align:middle;">
-											<ul style="margin:0; padding:0; list-style:none; border-top:1px solid #ddd; color:#2d2d2d; font:16px/1.5 'Helvetica Neue', sans-serif;" class="sw-text">
+											<ul style="margin:0; padding:0; list-style:none; border-top:1px solid #ddd; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
 												<li style="padding:4px; border-bottom:1px solid #ddd;"><a href="https://www.nintendo.com/games/detail/yeah-yeah-beebiss-ii-switch/">Yeah Yeah Beebiss II</a>&nbsp;— Retro-style action platformer for two players.</li>
 											</ul>
 										</td>
@@ -284,7 +234,7 @@
 											</table>
 										</td>
 										<td style="padding-left:16px; padding-bottom:16px; vertical-align:middle;">
-											<ul style="margin:0; padding:0; list-style:none; border-top:1px solid #ddd; color:#2d2d2d; font:16px/1.5 'Helvetica Neue', sans-serif;" class="sw-text">
+											<ul style="margin:0; padding:0; list-style:none; border-top:1px solid #ddd; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
 												<li style="padding:4px; border-bottom:1px solid #ddd;"><a href="https://www.nintendo.com/games/detail/invert-switch/">Invert</a>&nbsp;— Colour-based logic puzzles.</li>
 												<li style="padding:4px; border-bottom:1px solid #ddd;"><a href="https://www.nintendo.com/games/detail/mcdroid-switch/">McDroid</a>&nbsp;— An arcade game in which famring and tower defense meet.&nbsp;<em style="font-size:13px; color:#767676;">(Already available in U.S.)</em></li>
 												<li style="padding:4px; border-bottom:1px solid #ddd;"><a href="https://www.nintendo.com/games/detail/the-dead-tree-of-ranchiuna-switch/">The Dead Tree of Ranchiuna</a>&nbsp;— Walking sim with platforming/puzzle elements. M for mature.</li>
@@ -309,7 +259,7 @@
 											</table>
 										</td>
 										<td style="padding-left:16px; padding-bottom:16px; vertical-align:middle;">
-											<ul style="margin:0; padding:0; list-style:none; border-top:1px solid #ddd; color:#2d2d2d; font:16px/1.5 'Helvetica Neue', sans-serif;" class="sw-text">
+											<ul style="margin:0; padding:0; list-style:none; border-top:1px solid #ddd; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
 												<li style="padding:4px; border-bottom:1px solid #ddd;"><a href="https://www.nintendo.com/games/detail/invert-switch/">Invert</a>&nbsp;— Colour-based logic puzzles.</li>
 												<li style="padding:4px; border-bottom:1px solid #ddd;"><a href="https://www.nintendo.com/games/detail/mcdroid-switch/">McDroid</a>&nbsp;— An arcade game in which famring and tower defense meet.&nbsp;<em style="font-size:13px; color:#767676;">(Already available in U.S.)</em></li>
 												<li style="padding:4px; border-bottom:1px solid #ddd;"><a href="https://www.nintendo.com/games/detail/the-dead-tree-of-ranchiuna-switch/">The Dead Tree of Ranchiuna</a>&nbsp;— Walking sim with platforming/puzzle elements. M for mature.</li>
@@ -323,13 +273,13 @@
 							<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; background-color:#d40915; border:4px solid #d40915; border-radius:8px;">
 								<tr>
 									<td style="padding:8px 16px;">
-										<h2 style="margin:0; color:#fff; font:bold 20px/1.5 'Helvetica Neue', sans-serif;">
+										<h2 style="margin:0; color:#fff; font:bold 20px/30px 'Helvetica Neue', sans-serif;">
 											⚡️ Quick Links
 										</h2>
 									</td>
 								</tr>
 							</table>
-							<p style="margin:16px 0; color:#2d2d2d; font:16px/1.5 'Helvetica Neue', sans-serif;" class="sw-text">
+							<p style="margin:16px 0; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
 								Charlie Day has briefly <a href="https://www.nintendoenthusiast.com/charlie-day-luigi-says-mario-movie-script-is-top-secret-theyll-break-his-neck-if-he-talks/">spoken about his role as Luigi</a> in the upcoming Mario movie.
 							</p>
 						</td>
@@ -341,7 +291,7 @@
 							<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; background-color:#ffecd9; border:4px solid #fe762e; border-radius:8px;">
 								<tr>
 									<td style="padding:16px;">
-										<p style="margin:0; color:#2d2d2d; font:16px/1.5 'Helvetica Neue', sans-serif;" class="sw-text">
+										<p style="margin:0; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
 											<strong>Switch Weekly remains both accessible <em>and</em> sustainable</strong> thanks to the ongoing support of my&nbsp;amazing patrons, including:<br>
 											<em>PC,&nbsp;CapnGoat, SB,&nbsp;FrozenTrout, JR,&nbsp;MindFad, Greg, Michael Fairley, Chris D, Andrew E, and others</em>&nbsp;—&nbsp;<strong><a href="https://www.patreon.com/switchweekly" style="color:inherit;">why not join them</a>?</strong>
 										</p>
@@ -351,9 +301,6 @@
 						</td>
 					</tr>
 				</table>
-				<!--[if mso]>
-				</td></tr></table>
-				<![endif]-->
 			</div>
 		</div>
 		<!--
@@ -382,26 +329,26 @@
 								</div>
 							</div>
 							<p style="margin:32px 0; text-align:center;">
-								<a href="https://switchweekly.com/" target="_blank"><img src="https://i.imgur.com/acydX2D.png" alt="Switch Weekly" width="200" border="0" style="vertical-align:middle; margin:0 auto; color:#fff; font:16px/1.5 'Helvetica Neue', sans-serif;" /></a>
+								<a href="https://switchweekly.com/" target="_blank"><img src="https://i.imgur.com/acydX2D.png" alt="Switch Weekly" width="200" border="0" style="vertical-align:middle; margin:0 auto; color:#fff; font:16px/24px 'Helvetica Neue', sans-serif;" /></a>
 							</p>
-							<p style="margin:0 0 16px; color:#fff; font:16px/1.5 'Helvetica Neue', sans-serif; text-align:center;" class="sw-text">
+							<p style="margin:0 0 16px; color:#fff; font:16px/24px 'Helvetica Neue', sans-serif; text-align:center;" class="sw-text">
 								Curated by <a href="https://twitter.com/chrisbrandrick" target="_blank" style="text-decoration:underline; color:#fff;">Chris Brandrick</a>
 							</p>
-							<p style="margin:0 0 16px; color:#fff; font:16px/1.5 'Helvetica Neue', sans-serif; text-align:center;" class="sw-text">
-								<a href="https://www.patreon.com/switchweekly"  target="_blank" style="display:inline-block; color:#fff; text-decoration:none; border:2px solid #fff; border-radius:8px; padding:4px 8px;">Support Switch Weekly on&nbsp;Patreon</a>
+							<p style="margin:0 0 16px; color:#fff; font:16px/24px 'Helvetica Neue', sans-serif; text-align:center;" class="sw-text">
+								<span class="sw-btn"><a href="https://www.patreon.com/switchweekly" target="_blank" class="sw-btn" style="display:inline-block; color:#fff; text-decoration:none; border:2px solid #fff; border-radius:8px; padding:4px 8px;">Support Switch Weekly on&nbsp;Patreon</a></span>
 							</p>
-							<div style="margin:32px 0; border-bottom:6px dotted #fff;"></div>
-							<p style="margin:0 0 16px; color:#fff; font:16px/1.5 'Helvetica Neue', sans-serif; text-align:left;" class="sw-text">
+							<hr style="margin:32px 0; border-width:0; background:#fff; color:#fff; height:4px; border-radius:2px;" />
+							<p style="margin:0 0 16px; color:#fff; font:16px/24px 'Helvetica Neue', sans-serif; text-align:left;" class="sw-text">
 								Switch Weekly is sent once weekly. <a href="https://switchweekly.com/unsub" target="_blank" style="color:#fff; text-decoration:underline;">Unsubscribe</a> if you're no longer interested.
 							</p>
-							<p style="margin:0 0 16px; color:#fff; font:16px/1.5 'Helvetica Neue', sans-serif; text-align:left;" class="sw-text">
+							<p style="margin:0 0 16px; color:#fff; font:16px/24px 'Helvetica Neue', sans-serif; text-align:left;" class="sw-text">
 								This newsletter may contain affiliate links, which help keep the newsletter sustainable.
 								🌳 In an effort to offset the carbon of sending this newsletter <a href="https://ecologi.com/switchweekly" target="_blank" style="color:#fff; text-decoration:underline;">a tree is planted for every issue sent</a>.
 							</p>
-							<p style="margin:0; color:#fff; font:16px/1.5 'Helvetica Neue', sans-serif; text-align:left;" class="sw-text">
+							<p style="margin:0; color:#fff; font:16px/24px 'Helvetica Neue', sans-serif; text-align:left;" class="sw-text">
 								Copyright © 2022 Switch Weekly - Chris Brandrick, All rights reserved.
 							</p>
-							<p style="margin:0; color:#fff; font:16px/1.5 'Helvetica Neue', sans-serif; text-align:left;" class="sw-text">
+							<p style="margin:0; color:#fff; font:16px/24px 'Helvetica Neue', sans-serif; text-align:left;" class="sw-text">
 								Made in Europe.
 							</p>
 						</div>
@@ -414,5 +361,8 @@
 			FOOTER
 		-->
 	</div>
+	<!--[if mso]>
+	</td></tr></table>
+	<![endif]-->
 </body>
 </html>
