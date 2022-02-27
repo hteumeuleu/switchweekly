@@ -38,15 +38,31 @@
 	<style id="css-dark" data-embed>
 		@media (prefers-color-scheme:dark) {
 			.sw-dark-background-color {
-				background-color:#3d3d3d !important;
+				background-color:#404855 !important;
 			}
 
 			.sw-dark-background-color-darker {
-				background-color:#2d2d2d !important;
+				background-color:#343c48 !important;
+			}
+
+			.sw-dark-background-color-red {
+				background-color: #df4e63 !important;
+			}
+
+			.sw-dark-background-color-red-as-text-color {
+				color: #df4e63 !important;
+			}
+
+			.sw-dark-color-light {
+				color:#fdfdfd !important;
+			}
+
+			.sw-dark-color-red {
+				color: #ff9ea8 !important;
 			}
 
 			.sw-polka-bg {
-				background-image: radial-gradient(#272727 33.33%, transparent 33.33%), radial-gradient(#272727 33.33%, transparent 33.33%) !important;
+				background-image: radial-gradient(#343c48 33.33%, transparent 33.33%), radial-gradient(#343c48 33.33%, transparent 33.33%) !important;
 			}
 
 			.sw-text {
@@ -54,7 +70,7 @@
 			}
 
 			.sw-text a {
-				color:#0ffbcb;
+				color:#ff9ea8;
 			}
 		}
 	</style>
@@ -74,13 +90,13 @@
 		<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
 			<tr>
 				<td style="padding:0 16px;">
-					<p style="margin:0; padding:0; color:#767676; font:16px/32px 'Helvetica Neue', sans-serif; text-align:right;">
-						<a href="https://www.example.com" target="_blank" style="display:inline-block; color:#767676; text-decoration:underline;">Web version</a> &middot; <a href="https://www.example.com" target="_blank" style="display:inline-block; color:#767676; text-decoration:underline;">Unsubscribe</a>
+					<p style="margin:0; padding:0; color:#767676; font:16px/32px 'Helvetica Neue', sans-serif; text-align:right;" class="sw-dark-color-light">
+						<a href="https://www.example.com" target="_blank" style="display:inline-block; color:#767676; text-decoration:underline;" class="sw-dark-color-light">Web version</a> &middot; <a href="https://www.example.com" target="_blank" style="display:inline-block; color:#767676; text-decoration:underline;" class="sw-dark-color-light">Unsubscribe</a>
 					</p>
 				</td>
 			</tr>
 		</table>
-		<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; background:#d40915;">
+		<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; background:#d40915;" class="sw-dark-background-color-red">
 			<tr>
 				<td style="padding:8px 16px;">
 					<div style="max-width:600px; margin:0 auto;">
@@ -102,13 +118,28 @@
 				</div>
 			</div>
 		</div>
-		<div style="background:#f8f8f8;" class="sw-dark-background-color-darker">
+		<div style="background:#eceff4;" class="sw-dark-background-color-darker">
 			<div style="max-width:632px; margin:0 auto;">
 				<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
 					<tr>
 						<td style="padding:32px 16px;">
 							<p style="margin:0 0 16px; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
-								<b>Hi, here's issue #270 of Switch Weekly — your weekly Nintendo update.</b>
+								<!-- Start Icon:Edition -->
+								<span style="font-size:20px; display:inline-block; vertical-align:middle;" role="presentation">
+									<span style="font-size:1em; display:block; border:0.1em solid; border-radius:0 0 0.1em 0.1em; pointer-events:none;">
+										<span style="font-size:1em; display:block; padding:0.1em 0.1em 0.25em;">
+											<span style="font-size:1em; display:table;">
+												<span style="font-size:1em; display:table-cell; width:0.2em; height:0.25em; background:currentColor;"></span>
+												<span style="font-size:1em; display:table-cell; padding-left:0.05em;">
+													<span style="font-size:1em; display:block; margin-bottom:0.05em; width:0.35em; height:0.1em; background:currentColor;"></span>
+													<span style="font-size:1em; display:block; width:0.35em; height:0.1em; background:currentColor;"></span>
+												</span>
+											</span>
+										</span>
+									</span>
+								</span>
+								<!-- End Icon:Edition -->
+								<b style="vertical-align:middle;">Hi, here's issue #270 of Switch Weekly — your weekly Nintendo update.</b>
 							</p>
 							<p style="margin:0 0 16px; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
 								So, did any of you manage to try <strong>Nintendo&nbsp;Switch Sports</strong> this weekend? There was an online play test&nbsp;for Switch Online members over the last few days. I didn't get chance to try it as it was all appointment-based — meaning you had to play during certain hours. But maybe it's a good thing I didn't get to play,&nbsp;as <a href="https://www.videogameschronicle.com/news/nintendo-is-forbidding-switch-sports-play-testers-from-sharing-info-on-social-media/">I couldn't have told you about it</a> anyway. 😆 You can totally hit reply and email me your thoughts in confidence. 😅
@@ -124,11 +155,11 @@
 							</p>
 							<div style="display:flex;">
 								<p style="margin:0; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
-									<img src="https://switchweekly.com/sendy/uploads/1552836696.gif" width="64" height="64" align="left" alt="" style="vertical-align:middle; float:none; margin-right:16px; color:#d20014; border:4px solid; border-radius:50%;" />
+									<img src="https://switchweekly.com/sendy/uploads/1552836696.gif" width="64" height="64" align="left" alt="" style="vertical-align:middle; float:none; margin-right:16px; color:#d20014; border:4px solid; border-radius:50%;" class="sw-dark-color-red" />
 								</p>
 								<p style="margin:auto 0; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
 									<strong>Cheers</strong>,<br />
-									<em><a href="https://twitter.com/chrisbrandrick" rel="noopener" target="_blank" style="color:#2d2d2d;">Chris</a></em>
+									<em><a href="https://twitter.com/chrisbrandrick" rel="noopener" target="_blank" style="color:#2d2d2d;" class="sw-dark-color-light">Chris</a></em>
 									&nbsp;✌️
 								</p>
 							</div>
@@ -160,7 +191,7 @@
 								<p style="margin:0 0 4px; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
 									<strong>
 										<span style="font-size:10px">REVIEW</span>
-										<a href="###" style="text-decoration:underline;color:#d20014" target="_blank">Pokémon Legends: Arceus - More than a trainer journey</a>
+										<a href="###" style="text-decoration:underline;color:#d20014" target="_blank" class="sw-dark-color-red">Pokémon Legends: Arceus - More than a trainer journey</a>
 									</strong>
 									<span style="font-size:14px;">&nbsp;—&nbsp;</span>
 									"<em>does an excellent job of pushing boundaries while staying true to what has kept&nbsp;Pokémon&nbsp;popular for over two decades and is an eye-opening glimpse at what Game Freak could do in future games of the series</em>".
@@ -171,7 +202,7 @@
 							</div>
 							<div style="padding:16px 0;">
 								<p style="margin:0 0 4px; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
-									<strong><a href="https://www.example.com" style="text-decoration:underline;color:#d20014" target="_blank">Nintendo receives backlash from fans over ending eShop purchases</a></strong>
+									<strong><a href="https://www.example.com" style="text-decoration:underline;color:#d20014" target="_blank" class="sw-dark-color-red">Nintendo receives backlash from fans over ending eShop purchases</a></strong>
 									<span style="font-size:14px;">&nbsp;—&nbsp;</span>
 									Earlier this week Nintendo announced plans to shutter the ability to purchase games via the eShop on both the Wii U and 3DS. It did not go down well, with many citing preservation concerns. The Video Game History Foundation called the decision "<a href="https://www.example.com" target="_blank">actively destructive to video game history</a>". If you're wanting some sort of rationale for the decision then <a href="https://www.example.com" target="_blank">here's a good Twitter thread</a> that dives into what may be behind it. The change is expected to take place in March of 2023.
 								</p>
@@ -179,7 +210,7 @@
 									BBC
 								</p>
 							</div>
-							<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; background-color:#d40915; border:4px solid #d40915; border-radius:8px;">
+							<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; background-color:#d40915; border-radius:8px;" class="sw-dark-background-color-red">
 								<tr>
 									<td style="padding:8px 16px;">
 										<h2 style="margin:0; color:#fff; font:bold 20px/30px 'Helvetica Neue', sans-serif;">
@@ -190,7 +221,7 @@
 							</table>
 							<p style="margin:16px 0; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
 								All releases are digital, Europe & U.S. unless otherwise stated.<br />
-								Release data sourced in collaboration with <a href="https://www.switchscores.com/" target="_blank" style="color:#2d2d2d;">Switch Scores</a>.
+								Release data sourced in collaboration with <a href="https://www.switchscores.com/" target="_blank" style="color:#2d2d2d;" class="sw-dark-color-light">Switch Scores</a>.
 							</p>
 							<p style="margin:16px 0; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
 								⭐️ = Ones to Watch &middot; 📦 = Physical release &middot; 🎮 = Demo available
@@ -199,14 +230,14 @@
 								<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; table-layout:fixed;">
 									<tr>
 										<td style="width:48px; padding-bottom:16px; vertical-align:top;">
-											<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:48px; border:4px solid #d40915; border-radius:8px; border-collapse:separate;">
+											<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:48px; border:4px solid; color:#d40915; border-radius:8px; border-collapse:separate;" class="sw-dark-background-color-red-as-text-color">
 												<tr>
-													<td style="background:#d40915; color:#fff; font:bold 10px/15px 'Helvetica Neue', sans-serif; text-transform:uppercase; text-align:center;">
+													<td style="background:#d40915; color:#fff; font:bold 10px/15px 'Helvetica Neue', sans-serif; text-transform:uppercase; text-align:center;" class="sw-dark-background-color-red">
 														MON
 													</td>
 												</tr>
 												<tr>
-													<td style="color:#2d2d2d; font:bold 20px/25px 'Helvetica Neue', sans-serif; text-align:center;">
+													<td style="color:#2d2d2d; font:bold 20px/25px 'Helvetica Neue', sans-serif; text-align:center;" class="sw-dark-color-light">
 														31
 													</td>
 												</tr>
@@ -220,14 +251,14 @@
 									</tr>
 									<tr>
 										<td style="width:48px; padding-bottom:16px; vertical-align:top;">
-											<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:48px; border:4px solid #d40915; border-radius:8px; border-collapse:separate;">
+											<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:48px; border:4px solid; color:#d40915; border-radius:8px; border-collapse:separate;" class="sw-dark-background-color-red-as-text-color">
 												<tr>
-													<td style="background:#d40915; color:#fff; font:bold 10px/15px 'Helvetica Neue', sans-serif; text-transform:uppercase; text-align:center;">
+													<td style="background:#d40915; color:#fff; font:bold 10px/15px 'Helvetica Neue', sans-serif; text-transform:uppercase; text-align:center;" class="sw-dark-background-color-red">
 														TUE
 													</td>
 												</tr>
 												<tr>
-													<td style="color:#2d2d2d; font:bold 20px/25px 'Helvetica Neue', sans-serif; text-align:center;">
+													<td style="color:#2d2d2d; font:bold 20px/25px 'Helvetica Neue', sans-serif; text-align:center;" class="sw-dark-color-light">
 														1
 													</td>
 												</tr>
@@ -236,7 +267,7 @@
 										<td style="padding-left:16px; padding-bottom:16px; vertical-align:middle;">
 											<ul style="margin:0; padding:0; list-style:none; border-top:1px solid #ddd; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
 												<li style="padding:4px; border-bottom:1px solid #ddd;"><a href="https://www.nintendo.com/games/detail/invert-switch/">Invert</a>&nbsp;— Colour-based logic puzzles.</li>
-												<li style="padding:4px; border-bottom:1px solid #ddd;"><a href="https://www.nintendo.com/games/detail/mcdroid-switch/">McDroid</a>&nbsp;— An arcade game in which famring and tower defense meet.&nbsp;<em style="font-size:13px; color:#767676;">(Already available in U.S.)</em></li>
+												<li style="padding:4px; border-bottom:1px solid #ddd;"><a href="https://www.nintendo.com/games/detail/mcdroid-switch/">McDroid</a>&nbsp;— An arcade game in which famring and tower defense meet.&nbsp;<em style="font-size:13px; color:#767676;" class="sw-dark-color-light">(Already available in U.S.)</em></li>
 												<li style="padding:4px; border-bottom:1px solid #ddd;"><a href="https://www.nintendo.com/games/detail/the-dead-tree-of-ranchiuna-switch/">The Dead Tree of Ranchiuna</a>&nbsp;— Walking sim with platforming/puzzle elements. M for mature.</li>
 												<li style="padding:4px; border-bottom:1px solid #ddd;"><a href="https://www.nintendo.com/games/detail/the-hundred-year-kingdom-switch/">The Hundred Year Kingdom</a>&nbsp;— Turn-based world-building&nbsp;sim.</li>
 												<li style="padding:4px; border-bottom:1px solid #ddd;"><a href="https://www.nintendo.com/games/detail/yeah-yeah-beebiss-ii-switch/">Yeah Yeah Beebiss II</a>&nbsp;— Retro-style action platformer for two players.</li>
@@ -245,14 +276,14 @@
 									</tr>
 									<tr>
 										<td style="width:48px; padding-bottom:16px; vertical-align:top;">
-											<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:48px; border:4px solid #d40915; border-radius:8px; border-collapse:separate;">
+											<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:48px; border:4px solid; color:#d40915; border-radius:8px; border-collapse:separate;" class="sw-dark-background-color-red-as-text-color">
 												<tr>
-													<td style="background:#d40915; color:#fff; font:bold 10px/15px 'Helvetica Neue', sans-serif; text-transform:uppercase; text-align:center;">
+													<td style="background:#d40915; color:#fff; font:bold 10px/15px 'Helvetica Neue', sans-serif; text-transform:uppercase; text-align:center;" class="sw-dark-background-color-red">
 														WED
 													</td>
 												</tr>
 												<tr>
-													<td style="color:#2d2d2d; font:bold 20px/25px 'Helvetica Neue', sans-serif; text-align:center;">
+													<td style="color:#2d2d2d; font:bold 20px/25px 'Helvetica Neue', sans-serif; text-align:center;" class="sw-dark-color-light">
 														2
 													</td>
 												</tr>
@@ -261,7 +292,7 @@
 										<td style="padding-left:16px; padding-bottom:16px; vertical-align:middle;">
 											<ul style="margin:0; padding:0; list-style:none; border-top:1px solid #ddd; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
 												<li style="padding:4px; border-bottom:1px solid #ddd;"><a href="https://www.nintendo.com/games/detail/invert-switch/">Invert</a>&nbsp;— Colour-based logic puzzles.</li>
-												<li style="padding:4px; border-bottom:1px solid #ddd;"><a href="https://www.nintendo.com/games/detail/mcdroid-switch/">McDroid</a>&nbsp;— An arcade game in which famring and tower defense meet.&nbsp;<em style="font-size:13px; color:#767676;">(Already available in U.S.)</em></li>
+												<li style="padding:4px; border-bottom:1px solid #ddd;"><a href="https://www.nintendo.com/games/detail/mcdroid-switch/">McDroid</a>&nbsp;— An arcade game in which famring and tower defense meet.&nbsp;<em style="font-size:13px; color:#767676;" class="sw-dark-color-light">(Already available in U.S.)</em></li>
 												<li style="padding:4px; border-bottom:1px solid #ddd;"><a href="https://www.nintendo.com/games/detail/the-dead-tree-of-ranchiuna-switch/">The Dead Tree of Ranchiuna</a>&nbsp;— Walking sim with platforming/puzzle elements. M for mature.</li>
 												<li style="padding:4px; border-bottom:1px solid #ddd;"><a href="https://www.nintendo.com/games/detail/the-hundred-year-kingdom-switch/">The Hundred Year Kingdom</a>&nbsp;— Turn-based world-building&nbsp;sim.</li>
 												<li style="padding:4px; border-bottom:1px solid #ddd;"><a href="https://www.nintendo.com/games/detail/yeah-yeah-beebiss-ii-switch/">Yeah Yeah Beebiss II</a>&nbsp;— Retro-style action platformer for two players.</li>
@@ -270,7 +301,7 @@
 									</tr>
 								</table>
 							</div>
-							<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; background-color:#d40915; border:4px solid #d40915; border-radius:8px;">
+							<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; background-color:#d40915; border-radius:8px;" class="sw-dark-background-color-red">
 								<tr>
 									<td style="padding:8px 16px;">
 										<h2 style="margin:0; color:#fff; font:bold 20px/30px 'Helvetica Neue', sans-serif;">
@@ -307,7 +338,7 @@
 			Start
 			FOOTER
 		-->
-		<div style="background:#d40915;">
+		<div style="background:#d40915;" class="sw-dark-background-color-red">
 			<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
 				<tr>
 					<td style="padding:32px 16px 64px;">
