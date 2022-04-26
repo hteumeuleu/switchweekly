@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="{{ page.language || 'fr' }}" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+	<meta charset="UTF-8" />
+	<if condition="page.title">
+		<title>{{{ page.title }}}</title>
+	</if>
+	<else>
+		<title>Switch Weekly</title>
+	</else>
+	<meta name="Generator" content="Microsoft Word 15 (filtered medium)" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="images/favicon.png" />
+	<meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no" />
+	<meta name="supported-color-scheme" value="light dark" />
+	<meta name="x-apple-disable-message-reformatting" />
+	<if condition="page.css">
+		<style id="css-maizzle-page">{{{ page.css }}}</style>
+	</if>
+	<style id="css-maizzle">
+		.sw-block-wrapper p {
+			margin: 0 0 16px;
+			color: #2d2d2d;
+			font: 16px/24px 'Helvetica Neue', sans-serif;
+		}
+		.sw-block-wrapper a {
+			color: #d20014;
+			text-decoration-thickness: 2px;
+		}
+		.sw-block-wrapper-article p {
+			margin: 0;
+		}
+		.sw-block-wrapper-article .source {
+			margin: 4px 0 0;
+			color: #767676;
+		}
+	</style>
+	<style id="css-common" data-embed>
+		.sw-text a {
+			color:#d20014;
+			text-decoration-thickness:2px;
+		}
+
+		.sw-btn a:hover {
+			color: #d40915 !important;
+			background-color: #fff;
+		}
+
+		.sw-polka-bg {
+			background-image: radial-gradient(rgba(100,100,100,0.05) 33.33%, transparent 33.33%), radial-gradient(rgba(100,100,100,0.05) 33.33%, transparent 33.33%) !important;
+			background-position: 6px 6px, 18px 18px !important;
+			background-size: 24px 24px !important;
+		}
+
+		.sw-emoji img {
+			width: 1.25em;
+			height: auto;
+		}
+	</style>
+	<style id="css-responsive" data-embed>
+		@media only screen and (max-width:375px) {
+			.sw-upcoming-td {
+				display: block !important;
+				padding-left: 0 !important;
+				padding-bottom: 4px !important;
+			}
+
+			.sw-upcoming-td-list {
+				padding-bottom: 32px !important;
+			}
+		}
+		@media only screen and (min-width:632px) {
+			.sw-hero-td {
+				padding:16px 0px !important;
+			}
+		}
+	</style>
+	<style id="css-dark-mode" data-embed>
+		:root {
+			color-scheme: light dark;
+			supported-color-schemes: light dark;
+		}
+
+		@media (prefers-color-scheme:dark) {
+			.sw-dark-background-color:not([class^="x_"]) {
+				background-color:#404855 !important;
+			}
+
+			.sw-dark-background-color-darker:not([class^="x_"]) {
+				background-color:#343c48 !important;
+			}
+
+			.sw-dark-background-color-red:not([class^="x_"]) {
+				background-color: #c24557 !important;
+			}
+
+			.sw-dark-background-color-red-as-text-color:not([class^="x_"]) {
+				color: #c24557 !important;
+			}
+
+			.sw-dark-color-light:not([class^="x_"]) {
+				color:#fdfdfd !important;
+			}
+
+			.sw-dark-color-red:not([class^="x_"]) {
+				color: #ff9ea8 !important;
+			}
+
+			.sw-polka-bg:not([class^="x_"]) {
+				background-image: radial-gradient(#343c48 33.33%, transparent 33.33%), radial-gradient(#343c48 33.33%, transparent 33.33%) !important;
+			}
+
+			.sw-text:not([class^="x_"]),
+			.sw-block-wrapper:not([class^="x_"]) p {
+				color:#fdfdfd !important;
+			}
+
+			.sw-text:not([class^="x_"]) a,
+			.sw-block-wrapper:not([class^="x_"]) a {
+				color:#ff9ea8 !important;
+			}
+
+			.sw-upcoming-li:not([class^="x_"]) {
+				border-bottom-color: #707680 !important;
+			}
+		}
+	</style>
+	<style id="css-dark-mode-outlook-com" data-embed>
+		[data-ogsb] .sw-dark-background-color-darker {
+			background-color:#343c48 !important;
+		}
+
+		[data-ogsb] .sw-dark-background-color-red {
+			background-color: #c24557 !important;
+		}
+
+		[data-ogsb] .sw-dark-background-color-red-as-text-color {
+			color: #c24557 !important;
+		}
+
+		[data-ogsb] .sw-dark-color-light {
+			color:#fdfdfd !important;
+		}
+
+		[data-ogsb] .sw-dark-color-red {
+			color: #ff9ea8 !important;
+		}
+
+		[data-ogsb] .sw-text,
+		[data-ogsb] .sw-block-wrapper p {
+			color:#fdfdfd !important;
+		}
+
+		[data-ogsb] .sw-text a,
+		[data-ogsb] .sw-block-wrapper a {
+			color:#ff9ea8;
+		}
+
+		[data-ogsb] .sw-upcoming-li {
+			border-bottom-color: #707680 !important;
+		}
+	</style>
+	<block name="head"></block>
+	<!--[if mso]>
+	<xml>
+		<o:OfficeDocumentSettings>
+			<o:PixelsPerInch>96</o:PixelsPerInch>
+		</o:OfficeDocumentSettings>
+	</xml>
+	<![endif]-->
+</head>
+<body style="padding:0; margin:0; -webkit-text-size-adjust:none; text-size-adjust:none; background:#fff;" class="sw-dark-background-color">
+	<!--[if mso]>
+	<table border="0" cellpadding="0" cellspacing="0" align="center" role="presentation" style="width:632px;"><tr><td>
+	<![endif]-->
+	<div lang="en" style="background:#fff;" class="sw-dark-background-color">
+		<!--
+			Start
+			HEADER
+		-->
+		<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+			<tr>
+				<td style="padding:4px 16px;">
+					<p style="margin:0; padding:0; color:#767676; font:16px/24px 'Helvetica Neue', sans-serif; text-align:right;" class="sw-dark-color-light">
+						<a href="https://www.example.com" target="_blank" style="display:inline-block; color:#767676; text-decoration:underline;" class="sw-dark-color-light">Web version</a> &middot; <a href="https://www.example.com" target="_blank" style="display:inline-block; color:#767676; text-decoration:underline;" class="sw-dark-color-light">Unsubscribe</a>
+					</p>
+				</td>
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; background:#d40915;" class="sw-dark-background-color-red">
+			<tr>
+				<td style="padding:8px 16px;">
+					<div style="max-width:600px; margin:0 auto;">
+						<p style="margin:0 0 4px;">
+							<a href="https://switchweekly.com/" target="_blank" style="text-decoration:none;"><img src="https://switchweekly-beta.netlify.app/assets/logo.png" alt="Switch Weekly" width="200" height="20" border="0" style="vertical-align:middle; color:#fff; font:bold 16px 'Helvetica Neue', sans-serif;" /></a>
+						</p>
+						<p style="margin:0; padding:0; color:#fff; font:16px/16px 'Helvetica Neue', sans-serif;">
+							<span style="font-weight:bold; font-size:14px; text-transform:uppercase; letter-spacing:0.04em;">
+								Issue #&zwj;{{ page.issue || "000" }}
+							</span>
+							&middot; February 20, 2022 &middot; {{ page.preheader }}
+						</p>
+					</div>
+				</td>
+			</tr>
+		</table>
+		<if condition="page.image">
+			<div class="sw-polka-bg" style="background:0 0/cover; background-position:center bottom; background-size:cover; background-image:url(images/pattern.png);">
+				<div style="max-width:600px; margin:0 auto;">
+					<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+						<tr>
+							<td class="sw-hero-td" style="padding:8px; mso-padding-alt:16px;">
+								<img src="{{ page.image }}" alt="" width="600" style="display:block; vertical-align:middle; max-width:100%; border-radius:8px; background-color:rgba(255,255,255,0.25);" />
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</if>
+		<!--
+			End
+			HEADER
+		-->
+		<!--
+			Start
+			INTRO
+		-->
+		<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; background:#eceff4;" class="sw-dark-background-color-darker">
+			<tr>
+				<td>
+					<div style="max-width:632px; margin:0 auto;">
+						<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+							<tr>
+								<td style="padding:32px 16px 16px;">
+									<div class="sw-block-wrapper sw-block-wrapper-intro">
+										<block name="intro"></block>
+									</div>
+									<div style="display:flex; margin-bottom:16px;">
+										<p style="margin:0; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
+											<img src="images/chris.jpg" width="56" height="56" align="left" alt="" style="vertical-align:middle; float:none; margin-right:8px; color:#d20014; border:4px solid transparent; border-radius:50%; background-color:#fff;" class="sw-dark-background-color" />
+										</p>
+										<p style="margin:auto 0; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
+											<strong>Cheers</strong>,<br />
+											<em><a href="https://twitter.com/chrisbrandrick" rel="noopener" target="_blank" style="color:#2d2d2d;" class="sw-dark-color-light">Chris</a></em>&nbsp;✌️
+										</p>
+									</div>
+									<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; background-color:#fff; border-radius:8px;" class="sw-dark-background-color">
+										<tr>
+											<td style="padding:4px 16px;">
+												<p style="margin:0; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
+													<span class="sw-emoji">🎮</span> <b>Currently Playing</b>: <block name="currently-playing"></block>
+												</p>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+		<!--
+			End
+			INTRO
+		-->
+		<!--
+			Start
+			MAIN
+		-->
+		<div style="max-width:632px; margin:0 auto;">
+			<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+				<tr>
+					<td style="padding:16px;">
+						<block name="main"></block>
+						<!-- This week articles -->
+						<block name="articles"></block>
+						<block name="zone1"></block>
+						<!-- Upcoming Releases -->
+						<component src="title.html" locals='{"icon":"🎮"}'>
+							Upcoming Releases
+						</component>
+						<p style="margin:16px 0; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
+							All releases are digital, Europe & U.S. unless otherwise stated.<br />
+							Release data sourced in collaboration with <a href="https://www.switchscores.com/" target="_blank" style="color:#2d2d2d;" class="sw-dark-color-light">Switch Scores</a>.
+						</p>
+						<p style="margin:16px 0; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
+							⭐️ = Ones to Watch &middot; 📦 = Physical release &middot; 🎮 = Demo available
+						</p>
+						<div style="padding:16px 0;">
+							<block name="upcoming"></block>
+						</div>
+						<block name="zone2"></block>
+						<!-- Quick Links -->
+						<component src="title.html" locals='{"icon":"⚡️"}'>
+							Quick Links
+						</component>
+						<ul style="margin:16px 0; padding:0 0 0 16px; list-style:disc outside;" role="list">
+							<block name="quick-links"></block>
+						</ul>
+						<block name="zone3"></block>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<!--
+			End
+			MAIN
+		-->
+		<!--
+			Start
+			FOOTER
+		-->
+		<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; background:#d40915;" class="sw-dark-background-color-red">
+			<tr>
+				<td style="padding:32px 16px 64px;">
+					<div style="max-width:600px; margin:0 auto;">
+						<div style="max-width:220px; padding-right:20px; margin:0 auto;">
+							<div style="max-width:200px; margin:0 auto; overflow:hidden;">
+								<div style="max-height:0; text-align:center; padding-left:36px;">
+									<!-- Start Icon:Right Joycon -->
+									<span style="font-size:64px; display:inline-block; vertical-align:top; pointer-events:none;" role="presentation">
+										<span style="font-size:1em; display:block; border-radius:0 0.25em 0.25em 0; overflow:hidden;">
+											<span style="font-size:1em; display:block; width:0.46875em; height:1em;">
+												<span style="font-size:1em; display:block; max-height:0;">
+													<span style="font-size:1em; display:block; border-top:1em solid;"></span>
+												</span>
+												<span style="font-size:1em; display:block; margin:0 auto; width:0.21875em; padding-top:0.4375em;">
+													<span style="font-size:1em; display:block; border-radius:50%; background-color:#d40915; overflow:hidden; border-top:0.21875em solid transparent;" class="sw-dark-background-color-red"></span>
+												</span>
+											</span>
+										</span>
+									</span>
+									<!-- End Icon:Right Joycon -->
+								</div>
+								<div style="width:220px; height:96px; text-align:center; touch-action:manipulation; overflow-y:scroll; overscroll-behavior:none; scroll-behavior:smooth;">
+									<div style="height:128px; font-size:0;">
+										<div style="padding-top:32px; padding-right:36px;">
+											<!-- Start Icon:Left Joycon -->
+											<span style="font-size:64px; display:inline-block; vertical-align:top; pointer-events:none;" role="presentation">
+												<span style="font-size:1em; display:block; border:0.0625em solid; border-radius:0.25em 0 0 0.25em; overflow:hidden;">
+													<span style="font-size:1em; display:block; width:0.375em; height:0.875em;">
+														<span style="font-size:1em; display:block; max-height:0;">
+															<span style="font-size:1em; display:block; margin:0 auto; width:0.21875em; padding-top:0.125em;">
+																<span style="font-size:1em; display:block; border-radius:50%; border-top:0.21875em solid; overflow:hidden;"></span>
+															</span>
+														</span>
+													</span>
+												</span>
+											</span>
+											<!-- End Icon:Left Joycon -->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<hr />
+						<div style="max-width:220px; padding-right:20px; margin:0 auto;">
+							<div style="max-width:200px; margin:0 auto; overflow:hidden;">
+								<div style="width:220px; height:96px; text-align:center; touch-action:manipulation; overflow-y:scroll; overscroll-behavior:none; scroll-behavior:smooth;">
+									<div style="height:128px; font-size:0;">
+										<div style=" display:inline-block; vertical-align:top;">
+											<div style="display:inline-block; padding-top:32px;">
+												<div style=" display:inline-block; vertical-align:top; margin:0 4px; border:4px solid #fff; border-radius:16px 0 0 16px;">
+													<div style="height:56px; width:24px; overflow:hidden;">
+														<div style="margin:8px auto 0; border-radius:50%; width:12px; height:12px; background-color:#fff; background-image:url('https://i.imgur.com/vfwKztc.png');"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div style="position:sticky; top:0; display:inline-block; vertical-align:top;">
+											<div style="display:inline-block; margin:0 4px; border:4px solid #fff; background-color:#fff; background-image:url('https://i.imgur.com/vfwKztc.png'); border-radius:0 16px 16px 0;">
+												<div style="height:56px; width:22px; overflow:hidden;">
+													<div style="margin:24px auto 0; border-radius:50%; width:14px; height:14px; background:#d40915;" class="sw-dark-background-color-red"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<p style="margin:32px 0; text-align:center;">
+							<a href="https://switchweekly.com/" target="_blank" style="text-decoration:none;"><img src="https://switchweekly-beta.netlify.app/assets/logo.png" alt="Switch Weekly" width="200" height="20" border="0" style="vertical-align:middle; margin:0 auto; color:#fff; font:bold 16px/24px 'Helvetica Neue', sans-serif;" /></a>
+						</p>
+						<p style="margin:0 0 16px; color:#fff; font:16px/24px 'Helvetica Neue', sans-serif; text-align:center;" class="sw-text">
+							Curated by <a href="https://twitter.com/chrisbrandrick" target="_blank" style="text-decoration:underline; color:#fff;">Chris Brandrick</a>
+						</p>
+						<p style="margin:0 0 16px; color:#fff; font:bold 16px/24px 'Helvetica Neue', sans-serif; text-align:center;" class="sw-text">
+							<span class="sw-btn"><a href="https://www.patreon.com/switchweekly" target="_blank" class="sw-btn" style="display:inline-block; color:#fff; text-decoration:none; border:2px solid #fff; border-radius:8px; padding:4px 8px;">Support Switch Weekly on&nbsp;Patreon</a></span>
+						</p>
+						<hr style="margin:32px 0; border-width:0; background:#fff; color:#fff; height:4px; border-radius:2px;" />
+						<p style="margin:0 0 16px; color:#fff; font:16px/24px 'Helvetica Neue', sans-serif; text-align:left;" class="sw-text">
+							Switch Weekly is sent once weekly. <a href="https://switchweekly.com/unsub" target="_blank" style="color:#fff; text-decoration:underline;">Unsubscribe</a> if you're no longer interested.
+						</p>
+						<p style="margin:0 0 16px; color:#fff; font:16px/24px 'Helvetica Neue', sans-serif; text-align:left;" class="sw-text">
+							This newsletter may contain affiliate links, which help keep the newsletter sustainable.
+							🌳 In an effort to offset the carbon of sending this newsletter <a href="https://ecologi.com/switchweekly" target="_blank" style="color:#fff; text-decoration:underline;">a tree is planted for every issue sent</a>.
+						</p>
+						<p style="margin:0; color:#fff; font:16px/24px 'Helvetica Neue', sans-serif; text-align:left;" class="sw-text">
+							Copyright © 2022 Switch Weekly - Chris Brandrick, All rights reserved.
+						</p>
+						<p style="margin:0; color:#fff; font:16px/24px 'Helvetica Neue', sans-serif; text-align:left;" class="sw-text">
+							Made in Europe.
+						</p>
+						<block name="footer"></block>
+					</div>
+				</td>
+			</tr>
+		</table>
+		<!--
+			End
+			FOOTER
+		-->
+	</div>
+	<!--[if mso]>
+	</td></tr></table>
+	<![endif]-->
+</body>
+</html>
