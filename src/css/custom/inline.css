@@ -1,0 +1,16 @@
+.sw-block-wrapper p {
+	margin: 0 0 16px;
+	color: #2d2d2d;
+	font: 16px/24px 'Helvetica Neue', sans-serif;
+}
+.sw-block-wrapper a {
+	color: #d20014;
+	text-decoration-thickness: 2px;
+}
+.sw-block-wrapper-article p {
+	margin: 0;
+}
+.sw-block-wrapper-article .source {
+	margin: 4px 0 0;
+	color: #767676;
+}

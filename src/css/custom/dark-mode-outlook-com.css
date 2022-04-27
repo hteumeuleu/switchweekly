@@ -1,0 +1,33 @@
+[data-ogsb] .sw-dark-background-color-darker {
+	background-color:#343c48 !important;
+}
+
+[data-ogsb] .sw-dark-background-color-red {
+	background-color: #c24557 !important;
+}
+
+[data-ogsb] .sw-dark-background-color-red-as-text-color {
+	color: #c24557 !important;
+}
+
+[data-ogsb] .sw-dark-color-light {
+	color:#fdfdfd !important;
+}
+
+[data-ogsb] .sw-dark-color-red {
+	color: #ff9ea8 !important;
+}
+
+[data-ogsb] .sw-text,
+[data-ogsb] .sw-block-wrapper p {
+	color:#fdfdfd !important;
+}
+
+[data-ogsb] .sw-text a,
+[data-ogsb] .sw-block-wrapper a {
+	color:#ff9ea8;
+}
+
+[data-ogsb] .sw-upcoming-li {
+	border-bottom-color: #707680 !important;
+}

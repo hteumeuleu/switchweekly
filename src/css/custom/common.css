@@ -1,0 +1,20 @@
+.sw-text a {
+	color:#d20014;
+	text-decoration-thickness:2px;
+}
+
+.sw-btn a:hover {
+	color: #d40915 !important;
+	background-color: #fff;
+}
+
+.sw-polka-bg {
+	background-image: radial-gradient(rgba(100,100,100,0.05) 33.33%, transparent 33.33%), radial-gradient(rgba(100,100,100,0.05) 33.33%, transparent 33.33%) !important;
+	background-position: 6px 6px, 18px 18px !important;
+	background-size: 24px 24px !important;
+}
+
+.sw-emoji img {
+	width: 1.25em;
+	height: auto;
+}

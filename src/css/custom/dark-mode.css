@@ -1,0 +1,48 @@
+:root {
+	color-scheme: light dark;
+	supported-color-schemes: light dark;
+}
+
+@media (prefers-color-scheme:dark) {
+	.sw-dark-background-color:not([class^="x_"]) {
+		background-color:#404855 !important;
+	}
+
+	.sw-dark-background-color-darker:not([class^="x_"]) {
+		background-color:#343c48 !important;
+	}
+
+	.sw-dark-background-color-red:not([class^="x_"]) {
+		background-color: #c24557 !important;
+	}
+
+	.sw-dark-background-color-red-as-text-color:not([class^="x_"]) {
+		color: #c24557 !important;
+	}
+
+	.sw-dark-color-light:not([class^="x_"]) {
+		color:#fdfdfd !important;
+	}
+
+	.sw-dark-color-red:not([class^="x_"]) {
+		color: #ff9ea8 !important;
+	}
+
+	.sw-polka-bg:not([class^="x_"]) {
+		background-image: radial-gradient(#343c48 33.33%, transparent 33.33%), radial-gradient(#343c48 33.33%, transparent 33.33%) !important;
+	}
+
+	.sw-text:not([class^="x_"]),
+	.sw-block-wrapper:not([class^="x_"]) p {
+		color:#fdfdfd !important;
+	}
+
+	.sw-text:not([class^="x_"]) a,
+	.sw-block-wrapper:not([class^="x_"]) a {
+		color:#ff9ea8 !important;
+	}
+
+	.sw-upcoming-li:not([class^="x_"]) {
+		border-bottom-color: #707680 !important;
+	}
+}

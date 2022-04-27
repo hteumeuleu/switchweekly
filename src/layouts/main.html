@@ -14,151 +14,20 @@
 	<meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no" />
 	<meta name="supported-color-scheme" value="light dark" />
 	<meta name="x-apple-disable-message-reformatting" />
-	<if condition="page.css">
-		<style id="css-maizzle-page">{{{ page.css }}}</style>
-	</if>
-	<style id="css-maizzle">
-		.sw-block-wrapper p {
-			margin: 0 0 16px;
-			color: #2d2d2d;
-			font: 16px/24px 'Helvetica Neue', sans-serif;
-		}
-		.sw-block-wrapper a {
-			color: #d20014;
-			text-decoration-thickness: 2px;
-		}
-		.sw-block-wrapper-article p {
-			margin: 0;
-		}
-		.sw-block-wrapper-article .source {
-			margin: 4px 0 0;
-			color: #767676;
-		}
+	<style id="css-inline" postcss>
+		@import url('./src/css/custom/inline.css');
 	</style>
-	<style id="css-common" data-embed>
-		.sw-text a {
-			color:#d20014;
-			text-decoration-thickness:2px;
-		}
-
-		.sw-btn a:hover {
-			color: #d40915 !important;
-			background-color: #fff;
-		}
-
-		.sw-polka-bg {
-			background-image: radial-gradient(rgba(100,100,100,0.05) 33.33%, transparent 33.33%), radial-gradient(rgba(100,100,100,0.05) 33.33%, transparent 33.33%) !important;
-			background-position: 6px 6px, 18px 18px !important;
-			background-size: 24px 24px !important;
-		}
-
-		.sw-emoji img {
-			width: 1.25em;
-			height: auto;
-		}
+	<style id="css-common" data-embed postcss>
+		@import url('./src/css/custom/common.css');
 	</style>
-	<style id="css-responsive" data-embed>
-		@media only screen and (max-width:375px) {
-			.sw-upcoming-td {
-				display: block !important;
-				padding-left: 0 !important;
-				padding-bottom: 4px !important;
-			}
-
-			.sw-upcoming-td-list {
-				padding-bottom: 32px !important;
-			}
-		}
-		@media only screen and (min-width:632px) {
-			.sw-hero-td {
-				padding:16px 0px !important;
-			}
-		}
+	<style id="css-responsive" data-embed postcss>
+		@import url('./src/css/custom/responsive.css');
 	</style>
-	<style id="css-dark-mode" data-embed>
-		:root {
-			color-scheme: light dark;
-			supported-color-schemes: light dark;
-		}
-
-		@media (prefers-color-scheme:dark) {
-			.sw-dark-background-color:not([class^="x_"]) {
-				background-color:#404855 !important;
-			}
-
-			.sw-dark-background-color-darker:not([class^="x_"]) {
-				background-color:#343c48 !important;
-			}
-
-			.sw-dark-background-color-red:not([class^="x_"]) {
-				background-color: #c24557 !important;
-			}
-
-			.sw-dark-background-color-red-as-text-color:not([class^="x_"]) {
-				color: #c24557 !important;
-			}
-
-			.sw-dark-color-light:not([class^="x_"]) {
-				color:#fdfdfd !important;
-			}
-
-			.sw-dark-color-red:not([class^="x_"]) {
-				color: #ff9ea8 !important;
-			}
-
-			.sw-polka-bg:not([class^="x_"]) {
-				background-image: radial-gradient(#343c48 33.33%, transparent 33.33%), radial-gradient(#343c48 33.33%, transparent 33.33%) !important;
-			}
-
-			.sw-text:not([class^="x_"]),
-			.sw-block-wrapper:not([class^="x_"]) p {
-				color:#fdfdfd !important;
-			}
-
-			.sw-text:not([class^="x_"]) a,
-			.sw-block-wrapper:not([class^="x_"]) a {
-				color:#ff9ea8 !important;
-			}
-
-			.sw-upcoming-li:not([class^="x_"]) {
-				border-bottom-color: #707680 !important;
-			}
-		}
+	<style id="css-dark-mode" data-embed postcss>
+		@import url('./src/css/custom/dark-mode.css');
 	</style>
-	<style id="css-dark-mode-outlook-com" data-embed>
-		[data-ogsb] .sw-dark-background-color-darker {
-			background-color:#343c48 !important;
-		}
-
-		[data-ogsb] .sw-dark-background-color-red {
-			background-color: #c24557 !important;
-		}
-
-		[data-ogsb] .sw-dark-background-color-red-as-text-color {
-			color: #c24557 !important;
-		}
-
-		[data-ogsb] .sw-dark-color-light {
-			color:#fdfdfd !important;
-		}
-
-		[data-ogsb] .sw-dark-color-red {
-			color: #ff9ea8 !important;
-		}
-
-		[data-ogsb] .sw-text,
-		[data-ogsb] .sw-block-wrapper p {
-			color:#fdfdfd !important;
-		}
-
-		[data-ogsb] .sw-text a,
-		[data-ogsb] .sw-block-wrapper a {
-			color:#ff9ea8;
-		}
-
-		[data-ogsb] .sw-upcoming-li {
-			border-bottom-color: #707680 !important;
-		}
+	<style id="css-dark-mode-outlook-com" data-embed postcss>
+		@import url('./src/css/custom/dark-mode-outlook-com.css');
 	</style>
 	<block name="head"></block>
 	<!--[if mso]>
