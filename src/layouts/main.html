@@ -2,12 +2,7 @@
 <html lang="{{ page.language || 'fr' }}" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 <head>
 	<meta charset="UTF-8" />
-	<if condition="page.title">
-		<title>{{{ page.title }}}</title>
-	</if>
-	<else>
-		<title>Switch Weekly</title>
-	</else>
+	<title>{{{ page.title || "Switch Weekly" }}}</title>
 	<meta name="Generator" content="Microsoft Word 15 (filtered medium)" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="shortcut icon" href="images/favicon.png" />
