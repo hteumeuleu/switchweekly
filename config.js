@@ -37,4 +37,10 @@ module.exports = {
       border: '0'
     },
   },
+  transform: {
+    uppercase: str => str.toUpperCase(),
+    formatDate: str => new Date(str).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }),
+    weekday: str => new Date(str).toLocaleDateString('en-US', { weekday: 'short' }),
+    day: str => new Date(str).toLocaleDateString('en-US', { day: 'numeric' }),
+  }
 }
