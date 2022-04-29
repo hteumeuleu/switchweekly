@@ -99,6 +99,7 @@
 									<div class="sw-block-wrapper sw-block-wrapper-intro">
 										<block name="intro"></block>
 									</div>
+									<!-- Signature -->
 									<div style="display:flex; margin-bottom:16px;">
 										<p style="margin:0; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
 											<img src="images/chris.jpg" width="56" height="56" align="left" alt="" style="vertical-align:middle; float:none; margin-right:8px; color:#d20014; border:4px solid transparent; border-radius:50%; background-color:#fff;" class="sw-dark-background-color" />
@@ -108,6 +109,7 @@
 											<em><a href="https://twitter.com/chrisbrandrick" rel="noopener" target="_blank" style="color:#2d2d2d;" class="sw-dark-color-light">Chris</a></em>&nbsp;✌️
 										</p>
 									</div>
+									<!-- Currently playing -->
 									<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; background-color:#fff; border-radius:8px;" class="sw-dark-background-color">
 										<tr>
 											<td style="padding:4px 16px;">
@@ -136,7 +138,6 @@
 			<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
 				<tr>
 					<td style="padding:16px;">
-						<block name="main"></block>
 						<!-- This week articles -->
 						<block name="articles"></block>
 						<block name="zone1"></block>
@@ -151,9 +152,7 @@
 						<p style="margin:16px 0; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
 							⭐️ = Ones to Watch &middot; 📦 = Physical release &middot; 🎮 = Demo available
 						</p>
-						<div style="padding:16px 0;">
-							<block name="upcoming"></block>
-						</div>
+						<block name="upcoming"></block>
 						<block name="zone2"></block>
 						<!-- Quick Links -->
 						<component src="title.html" locals='{"icon":"⚡️"}'>
@@ -183,7 +182,7 @@
 							<div style="max-width:200px; margin:0 auto; overflow:hidden;">
 								<div style="max-height:0; text-align:center; padding-left:36px;">
 									<!-- Start Icon:Right Joycon -->
-									<span style="font-size:64px; display:inline-block; vertical-align:top; pointer-events:none;" role="presentation">
+									<span style="font-size:64px; display:inline-block; vertical-align:top; pointer-events:none; color:#fff;" role="presentation">
 										<span style="font-size:1em; display:block; border-radius:0 0.25em 0.25em 0; overflow:hidden;">
 											<span style="font-size:1em; display:block; width:0.46875em; height:1em;">
 												<span style="font-size:1em; display:block; max-height:0;">
@@ -201,7 +200,7 @@
 									<div style="height:128px; font-size:0;">
 										<div style="padding-top:32px; padding-right:36px;">
 											<!-- Start Icon:Left Joycon -->
-											<span style="font-size:64px; display:inline-block; vertical-align:top; pointer-events:none;" role="presentation">
+											<span style="font-size:64px; display:inline-block; vertical-align:top; pointer-events:none; color:#fff;" role="presentation">
 												<span style="font-size:1em; display:block; border:0.0625em solid; border-radius:0.25em 0 0 0.25em; overflow:hidden;">
 													<span style="font-size:1em; display:block; width:0.375em; height:0.875em;">
 														<span style="font-size:1em; display:block; max-height:0;">
@@ -218,52 +217,27 @@
 								</div>
 							</div>
 						</div>
-						<hr />
-						<div style="max-width:220px; padding-right:20px; margin:0 auto;">
-							<div style="max-width:200px; margin:0 auto; overflow:hidden;">
-								<div style="width:220px; height:96px; text-align:center; touch-action:manipulation; overflow-y:scroll; overscroll-behavior:none; scroll-behavior:smooth;">
-									<div style="height:128px; font-size:0;">
-										<div style=" display:inline-block; vertical-align:top;">
-											<div style="display:inline-block; padding-top:32px;">
-												<div style=" display:inline-block; vertical-align:top; margin:0 4px; border:4px solid #fff; border-radius:16px 0 0 16px;">
-													<div style="height:56px; width:24px; overflow:hidden;">
-														<div style="margin:8px auto 0; border-radius:50%; width:12px; height:12px; background-color:#fff; background-image:url('https://i.imgur.com/vfwKztc.png');"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div style="position:sticky; top:0; display:inline-block; vertical-align:top;">
-											<div style="display:inline-block; margin:0 4px; border:4px solid #fff; background-color:#fff; background-image:url('https://i.imgur.com/vfwKztc.png'); border-radius:0 16px 16px 0;">
-												<div style="height:56px; width:22px; overflow:hidden;">
-													<div style="margin:24px auto 0; border-radius:50%; width:14px; height:14px; background:#d40915;" class="sw-dark-background-color-red"></div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
 						<p style="margin:32px 0; text-align:center;">
 							<a href="https://switchweekly.com/" target="_blank" style="text-decoration:none;"><img src="https://switchweekly-beta.netlify.app/assets/logo.png" alt="Switch Weekly" width="200" height="20" border="0" style="vertical-align:middle; margin:0 auto; color:#fff; font:bold 16px/24px 'Helvetica Neue', sans-serif;" /></a>
 						</p>
-						<p style="margin:0 0 16px; color:#fff; font:16px/24px 'Helvetica Neue', sans-serif; text-align:center;" class="sw-text">
+						<p style="margin:0 0 16px; color:#fff; font:16px/24px 'Helvetica Neue', sans-serif; text-align:center;">
 							Curated by <a href="https://twitter.com/chrisbrandrick" target="_blank" style="text-decoration:underline; color:#fff;">Chris Brandrick</a>
 						</p>
-						<p style="margin:0 0 16px; color:#fff; font:bold 16px/24px 'Helvetica Neue', sans-serif; text-align:center;" class="sw-text">
+						<p style="margin:0 0 16px; color:#fff; font:bold 16px/24px 'Helvetica Neue', sans-serif; text-align:center;">
 							<span class="sw-btn"><a href="https://www.patreon.com/switchweekly" target="_blank" class="sw-btn" style="display:inline-block; color:#fff; text-decoration:none; border:2px solid #fff; border-radius:8px; padding:4px 8px;">Support Switch Weekly on&nbsp;Patreon</a></span>
 						</p>
 						<hr style="margin:32px 0; border-width:0; background:#fff; color:#fff; height:4px; border-radius:2px;" />
-						<p style="margin:0 0 16px; color:#fff; font:16px/24px 'Helvetica Neue', sans-serif; text-align:left;" class="sw-text">
+						<p style="margin:0 0 16px; color:#fff; font:16px/24px 'Helvetica Neue', sans-serif; text-align:left;">
 							Switch Weekly is sent once weekly. <a href="https://switchweekly.com/unsub" target="_blank" style="color:#fff; text-decoration:underline;">Unsubscribe</a> if you're no longer interested.
 						</p>
-						<p style="margin:0 0 16px; color:#fff; font:16px/24px 'Helvetica Neue', sans-serif; text-align:left;" class="sw-text">
+						<p style="margin:0 0 16px; color:#fff; font:16px/24px 'Helvetica Neue', sans-serif; text-align:left;">
 							This newsletter may contain affiliate links, which help keep the newsletter sustainable.
 							🌳 In an effort to offset the carbon of sending this newsletter <a href="https://ecologi.com/switchweekly" target="_blank" style="color:#fff; text-decoration:underline;">a tree is planted for every issue sent</a>.
 						</p>
-						<p style="margin:0; color:#fff; font:16px/24px 'Helvetica Neue', sans-serif; text-align:left;" class="sw-text">
+						<p style="margin:0; color:#fff; font:16px/24px 'Helvetica Neue', sans-serif; text-align:left;">
 							Copyright © 2022 Switch Weekly - Chris Brandrick, All rights reserved.
 						</p>
-						<p style="margin:0; color:#fff; font:16px/24px 'Helvetica Neue', sans-serif; text-align:left;" class="sw-text">
+						<p style="margin:0; color:#fff; font:16px/24px 'Helvetica Neue', sans-serif; text-align:left;">
 							Made in Europe.
 						</p>
 						<block name="footer"></block>
