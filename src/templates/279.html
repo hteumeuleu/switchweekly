@@ -41,21 +41,20 @@ image: "https://switchweekly.com/sendy/uploads/1650635694.jpeg"
 		</component>
 	</block>
 	<block name="upcoming">
-		<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; table-layout:fixed;" class="sw-upcoming">
-			<tr>
-				<td class="sw-upcoming-td" style="width:48px; padding-bottom:16px; vertical-align:top;">
-					<component locals='{"date":"2022-04-27"}' src="calendar.html">
-					</component>
-				</td>
-				<td class="sw-upcoming-td sw-upcoming-td-list" style="padding-left:16px; padding-bottom:16px; vertical-align:bottom;">
-					<ul style="margin:0; padding:0; list-style:none; color:#2d2d2d; font:16px/24px 'Helvetica Neue', sans-serif;" class="sw-text">
-						<component src="upcoming.html">
-							<a href="https://www.nintendo.com/games/detail/yeah-yeah-beebiss-ii-switch/">Yeah Yeah Beebiss II</a>&nbsp;— Retro-style action platformer for two players.
-						</component>
-					</ul>
-				</td>
-			</tr>
-		</table>
+		<component locals='{"date":"2022-04-28"}' src="upcoming.html">
+			<component src="upcoming-item.html">
+				<a href="https://www.nintendo.com/games/detail/yeah-yeah-beebiss-ii-switch/">Yeah Yeah Beebiss II</a>&nbsp;— Retro-style action platformer for two players.
+			</component>
+			<component src="upcoming-item.html">
+				<a href="https://www.nintendo.com/games/detail/yeah-yeah-beebiss-ii-switch/">Yeah Yeah Beebiss II</a>&nbsp;— Retro-style action platformer for two players.
+			</component>
+			<component src="upcoming-item.html">
+				<a href="https://www.nintendo.com/games/detail/yeah-yeah-beebiss-ii-switch/">Yeah Yeah Beebiss II</a>&nbsp;— Retro-style action platformer for two players.
+			</component>
+			<component src="upcoming-item.html">
+				<a href="https://www.nintendo.com/games/detail/yeah-yeah-beebiss-ii-switch/">Yeah Yeah Beebiss II</a>&nbsp;— Retro-style action platformer for two players.
+			</component>
+		</component>
 	</block>
 	<block name="quick-links">
 		<component src="quickie.html">
