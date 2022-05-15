@@ -5,6 +5,13 @@ module.exports = {
       sm: {max: '600px'},
     },
     extend: {
+      colors: {
+        'red': '#d20014',
+        'red-dark': '#c24557',
+        'grey': '#2d2d2d',
+        'light-orange': '#ffecd9',
+        'orange': '#fe762e',
+      },
       spacing: {
         screen: '100vw',
         full: '100%',
@@ -72,13 +79,14 @@ module.exports = {
         DEFAULT: '4px',
         md: '6px',
         lg: '8px',
+        '8': '8px',
         xl: '12px',
         '2xl': '16px',
         '3xl': '24px',
         full: '9999px',
       },
       fontFamily: {
-        sans: ['ui-sans-serif', 'system-ui', '-apple-system', '"Segoe UI"', 'sans-serif'],
+        sans: ['Helvetica Neue', 'sans-serif'],
         serif: ['ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
         mono: ['ui-monospace', 'Menlo', 'Consolas', 'monospace'],
       },
@@ -97,6 +105,9 @@ module.exports = {
         '7xl': '72px',
         '8xl': '96px',
         '9xl': '128px',
+      },
+      leading: {
+        '24': '24px'
       },
       inset: theme => ({
         ...theme('spacing'),

@@ -34,8 +34,14 @@ module.exports = {
   },
   extraAttributes: {
     table: {
-      border: '0'
+      border: '0',
+      cellspacing: '0',
+      cellpadding: '0',
+      role: 'presentation',
     },
+    a: {
+      target: '_blank'
+    }
   },
   transform: {
     uppercase: str => str.toUpperCase(),
