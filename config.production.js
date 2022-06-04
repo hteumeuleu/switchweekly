@@ -17,5 +17,5 @@ module.exports = {
       },
     },
   },
-  baseImageURL: 'https://switchweekly-beta.netlify.app/images/',
+  baseURL: 'https://switchweekly-beta.netlify.app/images/',
 }
