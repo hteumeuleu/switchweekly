@@ -10,9 +10,6 @@
 	<meta name="supported-color-scheme" value="light dark" />
 	<meta name="x-apple-disable-message-reformatting" />
 	<style id="css-maizzle">{{{ page.css }}}</style>
-	<style id="css-inline">
-		@import url('./src/css/custom/inline.css');
-	</style>
 	<style id="css-common" data-embed postcss>
 		@import url('./src/css/custom/common.css');
 	</style>
@@ -57,7 +54,7 @@
 				<td style="padding:8px 16px;">
 					<div style="max-width:600px; margin:0 auto;">
 						<p style="margin:0 0 4px;">
-							<a href="https://switchweekly.com/" target="_blank" style="text-decoration:none;"><img src="https://switchweekly-beta.netlify.app/assets/logo.png" alt="Switch Weekly" width="200" height="20" border="0" style="vertical-align:middle; color:#fff; font:bold 16px 'Helvetica Neue', sans-serif;" /></a>
+							<a href="https://switchweekly.com/" target="_blank" style="text-decoration:none;"><img src="images/logo.png" alt="Switch Weekly" width="200" height="20" border="0" style="vertical-align:middle; color:#fff; font:bold 16px 'Helvetica Neue', sans-serif;" /></a>
 						</p>
 						<p style="margin:0; padding:0; color:#fff; font:16px/16px 'Helvetica Neue', sans-serif;">
 							<span style="font-weight:bold; font-size:14px; text-transform:uppercase; letter-spacing:0.04em;">
@@ -70,15 +67,17 @@
 			</tr>
 		</table>
 		<if condition="page.image">
-			<div class="sw-polka-bg" style="background:0 0/cover; background-position:center bottom; background-size:cover; background-image:url(images/pattern.png);">
-				<div style="max-width:600px; margin:0 auto;">
-					<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
-						<tr>
-							<td class="sw-hero-td" style="padding:8px; mso-padding-alt:16px;">
-								<img src="{{ page.image }}" alt="" width="600" style="display:block; vertical-align:middle; max-width:100%; border-radius:8px; background-color:rgba(255,255,255,0.25);" />
-							</td>
-						</tr>
-					</table>
+			<div class="sw-dots-bg-image" style="background-position:center bottom; background-image:url(images/pattern.png);">
+				<div class="sw-dots-bg">
+					<div style="max-width:600px; margin:0 auto;">
+						<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+							<tr>
+								<td class="sw-hero-td" style="padding:8px; mso-padding-alt:16px;">
+									<img src="{{ page.image }}" alt="" width="600" style="display:block; vertical-align:middle; max-width:100%; border-radius:8px; background-color:rgba(255,255,255,0.25);" />
+								</td>
+							</tr>
+						</table>
+					</div>
 				</div>
 			</div>
 		</if>
@@ -219,7 +218,7 @@
 							</div>
 						</div>
 						<p style="margin:32px 0; text-align:center;">
-							<a href="https://switchweekly.com/" target="_blank" style="text-decoration:none;"><img src="https://switchweekly-beta.netlify.app/assets/logo.png" alt="Switch Weekly" width="200" height="20" border="0" style="vertical-align:middle; margin:0 auto; color:#fff; font:bold 16px/24px 'Helvetica Neue', sans-serif;" /></a>
+							<a href="https://switchweekly.com/" target="_blank" style="text-decoration:none;"><img src="images/logo.png" alt="Switch Weekly" width="200" height="20" border="0" style="vertical-align:middle; margin:0 auto; color:#fff; font:bold 16px/24px 'Helvetica Neue', sans-serif;" /></a>
 						</p>
 						<p style="margin:0 0 16px; color:#fff; font:16px/24px 'Helvetica Neue', sans-serif; text-align:center;">
 							Curated by <a href="https://twitter.com/chrisbrandrick" target="_blank" style="text-decoration:underline; color:#fff;">Chris Brandrick</a>

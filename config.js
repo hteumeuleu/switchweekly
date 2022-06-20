@@ -43,7 +43,7 @@ module.exports = {
       target: '_blank'
     }
   },
-  transform: {
+  filters: {
     uppercase: str => str.toUpperCase(),
     formatDate: str => new Date(str).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }),
     weekday: str => new Date(str).toLocaleDateString('en-US', { weekday: 'short' }),
