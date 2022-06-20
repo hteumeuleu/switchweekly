@@ -28,7 +28,8 @@
 		color: #ff9ea8 !important;
 	}
 
-	.sw-polka-bg:not([class^="x_"]) {
+	.sw-dots-bg:not([class^="x_"]) {
+		background-color:#404855 !important;
 		background-image: radial-gradient(#343c48 33.33%, transparent 33.33%), radial-gradient(#343c48 33.33%, transparent 33.33%) !important;
 	}
 
